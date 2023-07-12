@@ -11,11 +11,11 @@ authors:
 superuser: false
 
 # Role/position
-role: Scientific Project Leader
+role: WP1 Music Economy | WP4 Music Innovation & Tech
 
 # Organizations/Affiliations
 organizations:
-- name: Institute for Information Law
+- name: Institute for Information Law, University of Amsterdam
   url: "https://www.ivir.nl/projects/cultural-creative-sectors-and-industries-data-observatory/"  
 
 # Short bio (displayed in user profile at end of posts)
@@ -31,9 +31,6 @@ topics:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ivir_uva
@@ -52,7 +49,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- institutional partners
+- consortium partners
 ---
 
 The **Institute for Information Law** ([IViR](https://www.ivir.nl/about-us/)), officially established in 1989, is one of the largest research centers in the field of information law in the world. The Institute employs over 25 researchers who are active in an entire spectrum of information society related legal areas: intellectual property law, patents, telecommunications and broadcasting regulation, media law, Internet regulation, advertising law, domain names, freedom of expression, privacy, digital consumer issues, commercial speech, et cetera.

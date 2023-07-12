@@ -1,6 +1,4 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
 main:
@@ -11,15 +9,19 @@ main:
     url: '#about'
     weight: 11
     parent: Home
-  - name: Terms & Conditions
-    url: "terms"
+  - name: Manual for Contributors
+    url: https://manual.dataobservatory.eu/
     weight: 12
+    parent: Home
+  - name: Terms & Conditions
+    url: ../terms
+    weight: 13
     parent: Home
   - name: News
     weight: 20
     identifier: News
   - name: Blog
-    url: '#posts'
+    url: ../post/
     weight: 22
     parent: News
   - name: Topics
@@ -47,45 +49,71 @@ main:
     weight: 40
     identifier: Data
   - name: 🏛️ Music & Economy
-    url: '#pillars'
+    url: https://music.dataobservatory.eu/pillar/music-economy/
     weight: 41
     parent: Data
   - name: 🏛️ Diversity & Circulation
-    url: '#pillars'
+    url: https://music.dataobservatory.eu/pillar/diversity-circulation/
     weight: 42
     parent: Data
   - name: 🏛️ Music & Society
-    url: '#pillars'
+    url: https://music.dataobservatory.eu/pillar/music-and-society/
     weight: 43
     parent: Data
   - name: 🏛️ Music Tech & Innovation
-    url: '#pillars'
+    url: https://music.dataobservatory.eu/pillar/innovation/
     weight: 44
     parent: Data
   - name: 📖 Open Science Repository
     url: 'https://zenodo.org/communities/music_observatory'
     weight: 48
     parent: Data
-  - name: 🖥️ API
-    url: '#data'
-    weight: 49
+  - name: GO FAIR
+    url: https://www.go-fair.org/fair-principles/fairification-process/
     parent: Data
-  - name: Publications
-    url: '#featured'
+  - name: Resources
+    url: ../resources/
+    weight: 59
+    identifier: Resources
+  - name: Overview
+    url: ../resources/
     weight: 60
-    identifier: Publications
-  - name: Featured
-    url: '#featured'
-    weight: 60
-    parent: Publications
-  - name: All Publications
-    url: '#publications'
+    parent: Resources
+  - name: Manual for Contributors
+    url: https://manual.dataobservatory.eu/
+    weight: 61
+    parent: Resources
+  - name: Open Policy Analysis Guidelines
+    url: ../resources/opa/
     weight: 62
-    parent: Publications
-  - name: Contributors
+    parent: Resources
+  - name: WP1 Music Economy
+    url: ../resources/report-european-music-economy/
+    weight: 63
+    parent: Resources
+  - name: WP2 Diversity & Circulation
+    url: ../resources/report-music-diversity-circulation/
+    weight: 64
+    parent: Resources
+  - name: WP3 Music Society & Citizenship
+    url: ../resources/report-music-society-citizenship/
+    weight: 65
+    parent: Resources
+  - name: WP4 Innovation & Tech
+    url: ../resources/report-music-innovation-tech/
+    weight: 66
+    parent: Resources
+  - name: WP5 Open Music Observatory
+    url: ../resources/open-music-observatory/
+    weight: 66
+    parent: Resources
+#    url: '#publications'
+#    weight: 62
+#    parent: Publications
+  - name: Consortium
     url: '#contributors'
-    weight: 70
-    identifier: Contributors
+    weight: 80
+    identifier: Consortium
   - name: Contact
     url: '#contact'
     weight: 90
